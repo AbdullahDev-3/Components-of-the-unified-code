@@ -236,7 +236,7 @@
   background-color: var(--ksa-gray-200) !important;
 }
 
-/* إضافة الخط السفلي عند الهفر */
+
 
 .custom-hover-bg::before {
   content: '';
