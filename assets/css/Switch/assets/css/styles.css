@@ -1,0 +1,35 @@
+.form-switch .form-check-input {
+  background-color: transparent;
+  border: 1px solid var(--ksa-primary);
+  width: 42px;
+  height: 22px;
+  border-radius: 20px;
+  position: relative;
+  transition: 0.3s;
+}
+
+.form-switch .form-check-input::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  background-color: var(--ksa-primary);
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.form-switch .form-check-input:checked {
+  background-color: var(--bs-form-valid-color);
+  border-color: var(--ksa-primary);
+}
+
+.form-switch .form-check-input:checked::before {
+  transform: translateX(20px);
+}
+
+.form-switch .form-check-input:focus {
+  box-shadow: none;
+}
+
