@@ -1,0 +1,20 @@
+.ksa-sidecard {
+  background-color: #fafafa;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.02) !important;
+  border: 2px solid var(--ksa-gray-200) !important;
+}
+
+.ksa-sidecard .icon-box {
+  color: var(--ksa-primary, #117c4a) !important;
+}
+
+@media (min-width: 992px) {
+  .ksa-sidecard {
+    margin-top: -12.5rem;
+    position: relative;
+    z-index: 10;
+    background-color: white;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08) !important;
+  }
+}
+
