@@ -1,0 +1,36 @@
+.custom__checkbox-wrap {
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom__radio:hover {
+  outline: 0.125rem solid #EAE9E9;
+}
+
+.custom__radio:focus {
+  outline: 0.125rem solid #D8D6D5;
+}
+
+.custom__radio {
+  margin: 0;
+  padding: 0;
+  border: 0.125rem solid #817F7E;
+  min-width: 1.125rem;
+  min-height: 1.125rem;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+}
+
+.checkbox:checked ~ .custom__radio {
+  background-color: #F48220 !important;
+  border-color: #F48220 !important;
+}
+
+.checkbox:checked ~ .custom__radio {
+  box-shadow: inset 0 0 0 0.1875rem #ffff;
+}
+
