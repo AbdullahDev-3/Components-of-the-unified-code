@@ -1,0 +1,19 @@
+.ksa-service-tabs .nav-link {
+  color: var(--ksa-gray-600);
+  border: none !important;
+  border-bottom: 3px solid transparent !important;
+  background: transparent !important;
+}
+
+.ksa-service-tabs .nav-link.active {
+  border-bottom: 3px solid var(--ksa-primary, #117c4a) !important;
+  color: var(--ksa-primary) !important;
+  border-radius: 8px;
+}
+
+.ksa-service-tabs .nav-link:hover {
+  border-bottom: 3px solid var(--ksa-gray-400) !important;
+  background-color: var(--ksa-gray-200) !important;
+  border-radius: 8px;
+}
+

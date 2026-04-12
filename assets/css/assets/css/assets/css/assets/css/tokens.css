@@ -1,0 +1,28 @@
+.token.tag {
+  color: #2563eb;
+}
+
+.token.attr-name {
+  color: #1e90fa;
+}
+
+.token.attr-value {
+  color: #10b981;
+}
+
+.token.string {
+  color: #10b981;
+}
+
+.token.keyword {
+  color: #8b5cf6;
+}
+
+.token.comment {
+  color: #9ca3af;
+}
+
+.token.punctuation {
+  color: #374151;
+}
+

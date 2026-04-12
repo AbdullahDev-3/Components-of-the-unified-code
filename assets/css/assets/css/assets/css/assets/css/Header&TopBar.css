@@ -253,13 +253,3 @@
   opacity: 1;
 }
 
-.ksa-nav {
-  min-width: 12rem;
-}
-
-@media (max-width: 991.98px) {
-  .ksa-nav {
-    color: var(--ksa-black);
-  }
-}
-

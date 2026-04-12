@@ -1,0 +1,19 @@
+.is-invalid {
+  border-color: var(--bs-secondary-border-subtle) !important;
+}
+
+.is-valid {
+  border-color: #198754 !important;
+}
+
+form {
+}
+
+input {
+  border: 2px solid var(--ksa-primary);
+}
+
+input {
+  border: 20px solid #000;
+}
+
