@@ -1,0 +1,36 @@
+.ksa-table {
+  border-spacing: 0;
+  border: 1px solid #EAECF0;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.ksa-table thead th {
+  background-color: var(--ksa-primary, #117c4a);
+  color: var(--ksa-white, #ffffff);
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.ksa-table tbody td {
+  font-size: 1.1rem;
+  color: #333333;
+  border-bottom: 1px solid #EAECF0;
+  line-height: 1.8;
+}
+
+.ksa-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.ksa-table tbody tr:hover td {
+  background-color: #F9FAFB;
+  cursor: default;
+}
+
+.ksa-table.table-striped tbody tr:nth-child(even) td {
+  background-color: #F9FAFB;
+}
+
