@@ -1,0 +1,14 @@
+.tag-green {
+  padding: 4px 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  width: fit-content;
+  color: #085D3A;
+  background: #ECFDF3;
+  border: 1px solid #ABEFC6;
+  border-radius: 4px;
+  line-height: 1;
+}
+

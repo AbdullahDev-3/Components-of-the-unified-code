@@ -1,0 +1,28 @@
+.breadcrumb-item + .breadcrumb-item::before {
+  float: none !important;
+  padding-inline: 0.6rem !important;
+  top: -3px;
+  color: var(--ksa-gray-200) !important;
+  font-size: 1.2rem;
+  line-height: 1;
+  content: "\203A" !important;
+}
+
+.breadcrumb-item a {
+  color: var(--ksa-gray-300);
+  transition: color 0.3s ease;
+}
+
+.breadcrumb-item a:hover {
+  color: var(--ksa-gray-300);
+  text-decoration: underline !important;
+}
+
+.breadcrumb-item.active {
+  color: var(--ksa-white)!important;
+}
+
+.ksa-breadcrumb {
+  background-color: var(--bs-success);
+}
+

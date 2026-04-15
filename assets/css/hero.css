@@ -1,0 +1,119 @@
+.ksa-hero {
+  background-color: var(--ksa-gray-40);
+}
+
+.ksa-hero h3 {
+  color: #80519f !important;
+}
+
+.sharebox {
+  width: 308px;
+  text-align: center;
+  align-self: center;
+}
+
+.sharebox .ksa-share-box {
+  padding: 16px;
+  padding-bottom: 4px;
+  width: auto;
+  background: var(--ksa-success-40);
+  text-align: center;
+  border-bottom: 0px;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.sharebox .ksa-share-box span {
+  margin-bottom: 16px;
+  display: block;
+  font-size: 16px;
+  font-family: var(--ksa-font);
+  color: var(--ksa-primary);
+  font-weight: bold;
+}
+
+.sharebox .social-sharing-buttons {
+  margin: 0;
+  padding: 16px;
+  padding-top: 0px;
+  width: auto;
+  background: var(--ksa-success-40);
+  text-align: center;
+  border-top: 0px;
+  border-radius: 0px 0px 16px 16px;
+}
+
+.social-sharing-buttons a {
+  margin: 0 4px;
+  width: 2rem;
+  height: 2rem;
+  text-decoration: none;
+  background: var(--ksa-primary);
+  color: var(--ksa-white);
+  border-radius: 3px;
+}
+
+@media (max-width: 990px) {
+  .sharebox {
+    display: none;
+  }
+}
+
+@media (max-width: 990px) {
+  .sharebox-mobile {
+    display: block !important;
+  }
+}
+
+.sharebox-mobile {
+  display: none;
+  margin: 1rem 0;
+  padding: 0px 16px;
+  width: 100%;
+  text-align: center;
+}
+
+.sharebox-mobile .social-sharing-buttons {
+  margin: 0;
+  padding: 16px;
+  padding-top: 0px;
+  width: auto;
+  background: var(--ksa-success-40);
+  text-align: center;
+  border-top: 0px;
+  border-radius: 0px 0px 16px 16px;
+}
+
+.sharebox-mobile .ksa-share-box {
+  padding: 16px;
+  padding-bottom: 4px;
+  width: auto;
+  background: var(--ksa-success-40);
+  text-align: center;
+  border-bottom: 0px;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.sharebox-mobile .ksa-share-box span {
+  margin-bottom: 16px;
+  display: block;
+  font-size: 16px;
+  font-family: var(--ksa-font);
+  color: var(--ksa-primary);
+  font-weight: bold;
+}
+
+.sharebox-mobile .social-sharing-buttons {
+  margin: 0;
+  padding: 16px;
+  padding-top: 0px;
+  width: auto;
+  background: var(--ksa-success-40);
+  text-align: center;
+  border-top: 0px;
+  border-radius: 0px 0px 16px 16px;
+}
+
+.page-name h3 {
+  color: var(--bs-success)!important;
+}
+

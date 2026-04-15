@@ -1,0 +1,66 @@
+.ksa-file-item {
+  display: none;
+  border: 1px solid var(--ksa-gray-200);
+  border-radius: 6px;
+  padding: 10px 16px;
+  background-color: var(--ksa-gray-50);
+  transition: all 0.3s ease;
+  margin-bottom: 12px;
+}
+
+.ksa-file-item.state-loading, .ksa-file-item.state-success, .ksa-file-item.state-error {
+  display: block;
+}
+
+.ksa-file-item .icon-loading, .ksa-file-item .icon-success, .ksa-file-item .icon-error, .ksa-file-item .file-item-help {
+  display: none;
+}
+
+.ksa-file-item.state-loading .icon-loading {
+  display: inline-block;
+  color: var(--ksa-gray-700);
+}
+
+.ksa-file-item.state-success .icon-success {
+  display: inline-block;
+  color: var(--ksa-success-500);
+}
+
+.ksa-file-item.state-error {
+  background-color: var(--ksa-gray-50) !important;
+  border-color: var(--ksa-error-600) !important;
+}
+
+.ksa-file-item.state-error .icon-error {
+  display: inline-block;
+  color: var(--ksa-error-600);
+}
+
+.ksa-file-item.state-error .file-item-help {
+  display: block;
+  color: var(--ksa-error-600);
+  font-size: 0.85rem;
+  margin-top: 0;
+}
+
+.file-item-icon {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.file-item-close {
+  background: none;
+  border: none;
+  padding: 0;
+  color: var(--ksa-gray-500);
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.file-item-close:hover {
+  color: var(--ksa-gray-900);
+}
+

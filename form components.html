@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="ar" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>form components</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="assets/css/Custom-Header&amp;TopBar.css?h=d1486cd50cb01925ed7325d8b8382dfc">
+    <link rel="stylesheet" href="assets/css/button.css?h=654cc1ec11acfccb3132abdf2b15ce15">
+    <link rel="stylesheet" href="assets/css/footer.css?h=89957461521d32c960971f4033ec5336">
+    <link rel="stylesheet" href="assets/css/hero.css?h=07662a6a079df66aeed546327f22359b">
+    <link rel="stylesheet" href="assets/css/service-tabs.css?h=2adecb848ec60ec6fcead13dbf79e3cc">
+    <link rel="stylesheet" href="assets/css/sidebar.css?h=88454136ed100fadb414a9f306ce018b">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+    <link rel="stylesheet" href="assets/css/cards.css?h=205ed7f5813dbef240da607627dd70e7">
+    <link rel="stylesheet" href="assets/css/Text-Input.css?h=2969bf62ba3333bbe0941b0090d94672">
+    <link rel="stylesheet" href="assets/css/Accordion.css?h=e87b1795db367b9a60c166fb80aa58aa">
+    <link rel="stylesheet" href="assets/css/breadcrumb.css?h=c6608f917be8d4d61412f17692ae38a0">
+    <link rel="stylesheet" href="assets/css/faq.css?h=8437b33bf0cba6e13e4fd2154e320ded">
+    <link rel="stylesheet" href="assets/css/feedbackblock.css?h=3cef957dda6bce5f52479db8bbbbdeaa">
+    <link rel="stylesheet" href="assets/css/filter.css?h=1188f4d15e9d4c16ffb862e99504d4f6">
+    <link rel="stylesheet" href="assets/css/guide.css?h=8126ce35ac003c2636b86a82c732de90">
+    <link rel="stylesheet" href="assets/css/related-section.css?h=cb182f4c4a1ae45315731c31229c9b7f">
+    <link rel="stylesheet" href="assets/css/styles.css?h=d31c6caa3d7d90b616136144066912c3">
+    <link rel="stylesheet" href="assets/css/suggestions.css?h=806e59b01b210bc43a065cda6f522cf0">
+    <link rel="stylesheet" href="assets/css/table.css?h=21ff77824afb4350990cd5cba864d7a2">
+    <link rel="stylesheet" href="assets/css/tag.css?h=63ffea169efa1f0f3b1acb63c804e010">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/Checkboxes.css?h=a74ac7eeefeec1e2b6daeb7fddeeeea1">
+    <link rel="stylesheet" href="assets/css/drop-zone.css?h=846df66dcad36e9d9396c57361e06fb3">
+    <link rel="stylesheet" href="assets/css/Dropdown.css?h=470d46eb6fd5cc73554aa91b83b1e884">
+    <link rel="stylesheet" href="assets/css/File-Status.css?h=d25593e103db23432f9021cc9f2aaaf8">
+    <link rel="stylesheet" href="assets/css/input-text.css?h=7e78bada528eaa0d020a128ad714c240">
+    <link rel="stylesheet" href="assets/css/knowledge-center.css?h=54a9530ccff45ec16c86180e8cc3324e">
+    <link rel="stylesheet" href="assets/css/Radio.css?h=7a0211195487e3c8ecc27b0c6f7d99f7">
+</head>
+
+<body class="py-5">
+    <div class="container">
+        <div class="card rounded-4 p-4 p-md-5 mx-auto" style="max-width:800px;">
+            <section class="mb-4"><label class="form-label required">اسم المرفق</label><input type="text" class="form-control" placeholder="أدخل اسم المرفق"></section>
+            <section class="mb-4"><label class="form-label text-danger">وصف المرفق</label><textarea class="form-control is-invalid" placeholder="أدخل وصفاً مختصراً للمرفق (اختياري)" rows="3"></textarea>
+                <div class="d-block mt-1 invalid-feedback"><span>هذا الحقل مطلوب أو المدخل غير صحيح.</span></div>
+            </section>
+            <section class="mt-4">
+                <div class="text-center rounded-3 position-relative d-flex flex-column justify-content-center align-items-center p-5 dropzone-wrapper"><input type="file" accept=".jpg,.png,.pdf" multiple="">
+                    <div class="text-dark mb-3 dz-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 10L12 5M12 5L17 10M12 5V15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M5 15V16C5 17.6569 6.34315 19 8 19H16C17.6569 19 19 17.6569 19 16V15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg></div>
+                    <h5 class="fs-5 fw-bold text-dark mb-2 dz-title">اسحب و أفلت الملفات هنا للرفع</h5>
+                    <p class="text-muted mb-4 mx-auto dz-desc" style="max-width:400px;font-size:0.95rem;line-height:1.6;"> الحد الأقصى لحجم الملف المسموح به هو 2 ميجابايت،<br>وتشمل الصيغ المدعومة .jpg و .png و .pdf. </p><span class="fs-6 dz-browse-btn">تصفح الملفات</span>
+                </div>
+            </section>
+            <section class="mt-5 pt-3 border-top">
+                <h5 class="fs-5 fw-bold text-dark mb-2">رفع الملفات</h5>
+                <p class="text-muted mb-4" style="font-size:0.95rem;line-height:1.6;"> الحد الأقصى لحجم الملف المسموح به هو 2 ميجابايت، وتشمل الصيغ المدعومة .jpg، .png، و .pdf. </p><input class="d-none" type="file" accept=".jpg,.png,.pdf" id="section4FileInput" multiple=""><label class="fw-bold rounded-2 mb-0 px-4 py-2 btn btn-neutral" for="section4FileInput" style="cursor:pointer;"> تصفح الملفات </label>
+            </section>
+            <section class="mt-5 pt-4 border-top">
+                <h5 class="fs-5 fw-bold text-dark mb-4">حالات رفع الملفات (معاينة)</h5>
+                <div class="ksa-file-item state-loading">
+                    <div class="d-flex w-100 justify-content-between align-items-center">
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="file-item-icon"><i class="fas fa-circle-notch fa-spin icon-loading"></i><i class="fas fa-check-circle icon-success"></i><i class="fas fa-exclamation-circle icon-error"></i></div><span class="fw-bold text-dark" style="font-size:0.95rem;">اسم الملف.csv</span>
+                        </div><button class="file-item-close"><i class="fas fa-times"></i></button>
+                    </div>
+                </div>
+                <div class="ksa-file-item state-success">
+                    <div class="d-flex w-100 justify-content-between align-items-center">
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="file-item-icon"><i class="fas fa-circle-notch fa-spin icon-loading"></i><i class="fas fa-check-circle icon-success"></i><i class="fas fa-exclamation-circle icon-error"></i></div><span class="fw-bold text-dark" style="font-size:0.95rem;">اسم الملف.csv</span>
+                        </div><button class="file-item-close"><i class="fas fa-times"></i></button>
+                    </div>
+                </div>
+                <div class="px-0 py-0 ksa-file-item state-error">
+                    <div class="d-flex w-100 justify-content-between align-items-center px-3 py-2">
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="file-item-icon"><i class="fas fa-circle-notch fa-spin icon-loading"></i><i class="fas fa-check-circle icon-success"></i><i class="fas fa-exclamation-circle icon-error"></i></div><span class="fw-bold text-dark" style="font-size:0.95rem;">اسم الملف.csv</span>
+                        </div><button class="file-item-close"><i class="fas fa-times"></i></button>
+                    </div>
+                    <div class="px-3 py-2 border-top" style="border-color:var(--ksa-gray-200);"><span class="file-item-help">تكتب هنا رسالة المساعدة.</span></div>
+                </div>
+            </section>
+            <section class="mt-5 pt-4 border-top">
+                <h5 class="fs-5 fw-bold text-dark mb-4">القائمة المنسدلة (Dropdown)</h5>
+                <div class="w-100 dropdown ksa-custom-dropdown" style="max-width:300px;"><label class="form-label">Label</label><button class="shadow-none form-control ksa-dropdown-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false"><span class="ksa-placeholder-text">Placeholder text</span><i class="fas fa-chevron-down"></i></button>
+                    <ul class="dropdown-menu ksa-dropdown-menu">
+                        <li><a class="d-flex justify-content-between align-items-center dropdown-item" href="#"><span>Option 1</span><i class="fas fa-check d-none ksa-check-icon"></i></a></li>
+                        <li><a class="d-flex justify-content-between align-items-center dropdown-item" href="#"><span>Option 2</span><i class="fas fa-check d-none ksa-check-icon"></i></a></li>
+                        <li><a class="d-flex justify-content-between align-items-center dropdown-item" href="#"><span>Option 3</span><i class="fas fa-check d-none ksa-check-icon"></i></a></li>
+                        <li><a class="d-flex justify-content-between align-items-center dropdown-item" href="#"><span>Option 4</span><i class="fas fa-check d-none ksa-check-icon"></i></a></li>
+                        <li><a class="d-flex justify-content-between align-items-center dropdown-item" href="#"><span>Option 5</span><i class="fas fa-check d-none ksa-check-icon"></i></a></li>
+                        <li><a class="d-flex justify-content-between align-items-center dropdown-item" href="#"><span>Option 6</span><i class="fas fa-check d-none ksa-check-icon"></i></a></li>
+                        <li><a class="d-flex justify-content-between align-items-center dropdown-item" href="#"><span>Option 7</span><i class="fas fa-check d-none ksa-check-icon"></i></a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="mt-5 pt-4 border-top">
+                <h5 class="fs-5 fw-bold text-dark mb-4">أزرار الاختيار (Radio Buttons)</h5><label class="form-label mb-3">هل الخدمة مطابقة لاحتياجاتك؟</label>
+                <div class="d-flex align-items-center gap-4">
+                    <div class="form-check d-flex align-items-center gap-2 m-0 p-0"><input class="form-check-input float-none m-0 ksa-radio" type="radio" checked="" id="radio-yes" name="yesNoOptions" value="yes"><label class="form-check-label mb-0 ksa-radio-label" for="radio-yes">نعم</label></div>
+                    <div class="form-check d-flex align-items-center gap-2 m-0 p-0"><input class="form-check-input float-none m-0 ksa-radio" type="radio" id="radio-no" name="yesNoOptions" value="no"><label class="form-check-label mb-0 ksa-radio-label" for="radio-no">لا</label></div>
+                </div>
+            </section>
+            <section class="mt-5 pt-4 border-top">
+                <h5 class="fs-5 fw-bold text-dark mb-4">خيار مفرد متقدم (حالة الخطأ)</h5>
+                <div style="display:grid;grid-template-columns:auto 1fr;gap:4px 12px;max-width:600px;">
+                    <div class="d-flex justify-content-center mt-1"><input class="m-0 form-check-input ksa-radio" type="radio" checked="" id="advanced-radio-err" name="advancedOptionErr"></div>
+                    <div><label class="fs-5 fw-bold text-dark form-check-label" for="advanced-radio-err" style="cursor:pointer;"> عنوان اختيار مفرد </label></div>
+                    <div></div>
+                    <div>
+                        <p class="text-muted pe-0 mb-2" style="font-size:0.95rem;line-height:1.6;"> يكتب المحتوى الإضافي هنا في حال ان عنوان الاختيار يحتاج الى شرح أو تفصيل. </p>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center" style="color:var(--ksa-error-600);"><i class="fas fa-exclamation-circle fs-5"></i></div>
+                    <div class="d-flex align-items-center" style="color:var(--ksa-error-600);"><span class="fw-bold" style="font-size:0.95rem;">رسالة خطأ أو تحذير</span></div>
+                </div>
+            </section>
+            <section class="mt-5 pt-4 border-top">
+                <h5 class="fs-5 fw-bold text-dark mb-4">مربعات الاختيار (Checkboxes)</h5><label class="form-label mb-3">اختر الخدمات المطلوبة:</label>
+                <div class="d-flex flex-column gap-3">
+                    <div class="form-check d-flex align-items-center gap-2 m-0 p-0"><input class="form-check-input float-none m-0 ksa-checkbox" type="checkbox" id="check-1"><label class="form-check-label mb-0 ksa-checkbox-label" for="check-1">الخيار الأول (غير محدد)</label></div>
+                    <div class="form-check d-flex align-items-center gap-2 m-0 p-0"><input class="form-check-input float-none m-0 ksa-checkbox" type="checkbox" checked="" id="check-2"><label class="form-check-label mb-0 ksa-checkbox-label" for="check-2">الخيار الثاني (محدد)</label></div>
+                    <div class="form-check d-flex align-items-center gap-2 m-0 p-0"><input class="form-check-input float-none m-0 ksa-checkbox" type="checkbox" disabled="" id="check-3"><label class="form-check-label mb-0 ksa-checkbox-label" for="check-3">الخيار الثالث (وضع القراءة - غير محدد)</label></div>
+                    <div class="form-check d-flex align-items-center gap-2 m-0 p-0"><input class="form-check-input float-none m-0 ksa-checkbox" type="checkbox" checked="" disabled="" id="check-4"><label class="form-check-label mb-0 ksa-checkbox-label" for="check-4">الخيار الرابع (وضع القراءة - محدد بعلامة خضراء)</label></div>
+                </div>
+            </section>
+            <section class="mt-5 pt-4 border-top">
+                <h5 class="fs-5 fw-bold text-dark mb-4">خيار متعدد متقدم (حالة الخطأ)</h5>
+                <div style="display:grid;grid-template-columns:auto 1fr;gap:4px 12px;max-width:600px;">
+                    <div class="d-flex justify-content-center mt-1"><input class="m-0 form-check-input ksa-checkbox" type="checkbox" id="advanced-check-err"></div>
+                    <div><label class="fs-5 fw-bold text-dark form-check-label" for="advanced-check-err" style="cursor:pointer;"> عنوان اختيار متعدد </label></div>
+                    <div></div>
+                    <div>
+                        <p class="text-muted pe-0 mb-2" style="font-size:0.95rem;line-height:1.6;"> يكتب المحتوى الإضافي هنا في حال ان عنوان الاختيار يحتاج الى شرح أو تفصيل. </p>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center" style="color:var(--ksa-error-600);"><i class="fas fa-exclamation-circle fs-5"></i></div>
+                    <div class="d-flex align-items-center" style="color:var(--ksa-error-600);"><span class="fw-bold" style="font-size:0.95rem;">رسالة خطأ أو تحذير</span></div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/related-section.js?h=775b0e93d68bbfd3ba4d7484d6869c8a"></script>
+    <script src="assets/js/Dropdown.js?h=d12d1018b8288ba3b6a5b503973d7db2"></script>
+</body>
+
+</html>

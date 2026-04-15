@@ -1,0 +1,26 @@
+.ksa-service-tabs .nav-link {
+  color: var(--ksa-gray-600);
+  border: none !important;
+  border-bottom: 3px solid transparent !important;
+  background: transparent !important;
+  position: relative;
+}
+
+.ksa-service-tabs .nav-link:active {
+  color: var(--ksa-black) !important;
+}
+
+.ksa-service-tabs .nav-link.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 0.3125rem;
+  border-radius: 0.25rem;
+  background-color: var(--ksa-primary) !important;
+}
+
+.card-service-tabs {
+  border: 2px solid var(--ksa-gray-200) !important;
+}
+
