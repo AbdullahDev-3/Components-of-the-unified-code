@@ -4,6 +4,31 @@
   border-color: var(--ksa-success-light) !important;
 }
 
+@media (min-width: 1399px) {
+  .navbar-nav .dropdown:hover > .dropdown-menu {
+    display: block;
+    animation: fadeDropdown 0.2s ease-out;
+  }
+}
+
+@media (min-width: 1399px) {
+  .navbar-nav .dropdown:hover > .dropdown-toggle::after {
+    transform: rotate(135deg);
+    margin-top: 0.25rem;
+  }
+}
+
+@keyframes fadeDropdown {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .text-ksa-primary {
   color: var(--ksa-primary) !important;
 }
@@ -312,8 +337,6 @@
   }
 }
 
-/* تدوير السهم عند الفتح في الجوال */
-
 @media (max-width: 1399px) {
   .mega-menu-title:not(.collapsed)::after {
     transform: rotate(180deg);
@@ -322,7 +345,7 @@
 
 @media (max-width: 1399px) {
   .mega-menu-list {
-    padding: 0.5rem 1.5rem 1.5rem 1.5rem;
+    padding: 1.5rem;
     background-color: var(--ksa-white);
     border-bottom: 1px solid var(--ksa-gray-200);
   }
@@ -337,8 +360,9 @@
 @media (max-width: 1399px) {
   .mega-menu-list a {
     font-size: 0.95rem;
-    padding: 0.35rem 0;
+    padding: 0.35rem;
     display: block;
+    border-radius: 8px !important;
     color: var(--ksa-gray-700);
   }
 }
@@ -346,7 +370,6 @@
 @media (max-width: 1399px) {
   .mega-menu-list a:hover {
     transform: none;
-    color: var(--ksa-primary);
   }
 }
 

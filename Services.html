@@ -7,7 +7,7 @@
     <title>الخدمات الرقمية</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
-    <link rel="stylesheet" href="assets/css/Custom-Header&amp;TopBar.css?h=d1486cd50cb01925ed7325d8b8382dfc">
+    <link rel="stylesheet" href="assets/css/Custom-Header&amp;TopBar.css?h=25dd380429c2ff302461fff245030f55">
     <link rel="stylesheet" href="assets/css/button.css?h=654cc1ec11acfccb3132abdf2b15ce15">
     <link rel="stylesheet" href="assets/css/footer.css?h=89957461521d32c960971f4033ec5336">
     <link rel="stylesheet" href="assets/css/hero.css?h=07662a6a079df66aeed546327f22359b">
@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="assets/css/tag.css?h=63ffea169efa1f0f3b1acb63c804e010">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="assets/css/Checkboxes.css?h=a74ac7eeefeec1e2b6daeb7fddeeeea1">
+    <link rel="stylesheet" href="assets/css/Date-Picker.css?h=a31759faa6b42db72b4e799e687bee74">
     <link rel="stylesheet" href="assets/css/drop-zone.css?h=846df66dcad36e9d9396c57361e06fb3">
     <link rel="stylesheet" href="assets/css/Dropdown.css?h=470d46eb6fd5cc73554aa91b83b1e884">
     <link rel="stylesheet" href="assets/css/File-Status.css?h=d25593e103db23432f9021cc9f2aaaf8">
@@ -77,7 +78,28 @@
             <div class="collapse navbar-collapse px-2" id="navcol-2">
                 <ul class="navbar-nav fw-bold mb-2 mb-lg-0">
                     <li class="nav-item d-none d-xxl-flex ksa-nav"><a class="nav-link rounded-2 position-relative d-flex h-100 align-items-center mx-2 px-4" href="Technical-project-management-office.html">&nbsp; &nbsp;مكتب إدارة المشاريع التقنية</a></li>
-                    <li class="nav-item"><a class="nav-link active rounded-2 position-relative d-flex h-100 align-items-center mx-2 px-4" href="Services.html">الخدمات الرقمية</a></li>
+                    <li class="nav-item dropdown has-mega-menu"><a class="dropdown-toggle nav-link rounded-2 position-relative d-flex h-100 align-items-center mx-2 px-4" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" href="Services.html" onclick="if(window.innerWidth &gt;= 1399) window.location.href=&#39;Services.html&#39;">الخدمات الرقمية</a>
+                        <div class="dropdown-menu mega-menu">
+                            <div class="container px-4">
+                                <div class="row g-0 py-3 g-xxl-4">
+                                    <div class="col-12 col-xxl-3">
+                                        <ul class="list-unstyled mb-0 mega-menu-list">
+                                            <li><a href="Proposal-for-a-digital-initiative.html">مقترح مبادرة رقمية</a></li>
+                                            <li><a href="Project-Status-Report-Submission.html">تقديم تقرير حالة المشروع</a></li>
+                                            <li><a href="Update-project-status.html">تحديث حالة المشروع</a></li>
+                                            <li><a href="Technical-support-for-project-management-tools.html">دعم فني اداة إدارة المشاريع</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-xxl-3">
+                                        <ul class="list-unstyled pt-0 pt-xxl-3 mega-menu-list">
+                                            <li><a href="Adding-technical-challenges-and-needs.html">إضافة تحديات والاحتياجات التقنية</a></li>
+                                            <li><a href="Consultations-on-technical-projects.html">استشارات حول المشاريع التقنية</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
                     <li class="nav-item"><a class="nav-link rounded-2 position-relative d-flex h-100 align-items-center mx-2 px-4" href="Knowledge-Center.html">مركز المعرفة</a></li>
                     <li class="nav-item"><a class="nav-link rounded-2 position-relative d-flex h-100 align-items-center mx-2 px-4" href="Contact-us.html">تواصل معنا</a></li>
                 </ul>
@@ -155,7 +177,7 @@
                             <div class="card border-0 shadow-sm h-100 dga-card dga-card-basic dga-card-tall">
                                 <div class="card-body d-flex h-100 flex-column gap-3">
                                     <div class="d-flex flex-column gap-1 dga-card-content">
-                                        <h1 class="pb-4 dga-card-title">تقديم تقرير حالة المسروع</h1>
+                                        <h1 class="pb-4 dga-card-title">تقديم تقرير حالة المشروع</h1>
                                         <p class="pb-4 dga-card-text"><span style="color:rgb(33, 37, 41);">Card content placeholder text goes here</span></p>
                                         <div><span class="tag-green">Text</span></div>
                                     </div>
@@ -289,66 +311,77 @@
                             <h3 class="fs-5 fw-bold text-white mb-4">روابط ذات صلة</h3>
                             <hr class="d-none d-lg-block footer-divider">
                             <ul class="list-unstyled mb-0">
-                                <li><a href="#">اسم الصفحة</a></li>
-                                <li><a href="#">اسم الصفحة</a></li>
-                                <li><a href="#">اسم الصفحة</a></li>
-                                <li><a href="#">اسم الصفحة</a></li>
+                                <li><a href="https://www.makkah.gov.sa/">موقع إمارة منطقة مكة المكرمة</a></li>
+                                <li><a href="https://ameen.makkah.gov.sa">نظام التعاملات الإلكترونية (أمين)</a></li>
+                                <li><a href="https://shomool.makkah.gov.sa">بوابة خدمات الموظفين (شمول)</a></li>
+                                <li><a href="http://nc-azure-devops.imarah.net/">أداة إدارة المشاريع التقنية</a></li>
+                                <li><a href="https://makkah.spaces.deem.sa">نظام التواصل الداخلي</a></li>
+                                <li><a href="https://makkah.drive.deem.sa">نظام مشاركة الملفات السحابي</a></li>
+                                <li><a href="https://mail.deem.sa">الدخول إلى موقع البريد الإلكتروني</a></li>
                             </ul>
                         </div>
                         <div class="col-md-4">
                             <h3 class="fs-5 fw-bold text-white mb-4">أقسام مهمة</h3>
                             <hr class="d-none d-lg-block footer-divider">
                             <ul class="list-unstyled mb-0">
-                                <li><a href="#">اسم الصفحة</a></li>
-                                <li><a href="#">اسم الصفحة</a></li>
-                                <li><a href="#">اسم الصفحة</a></li>
-                                <li><a href="#">اسم الصفحة</a></li>
+                                <li><a href="https://">سياسة ممارسات إدارة محفظة المشاريع التقنية</a></li>
+                                <li><a href="#">الهيكل التنظيمي للمكتب</a></li>
+                                <li><a href="#">منهجية إدارة المشاربع التقنية</a></li>
+                                <li><a href="#">أداة إدارة المشاريع التقنية</a></li>
+                                <li><a href="#">إجراءات إدارة المشاريع التقنية</a></li>
+                                <li><a href="#">الأدلة الإسترشادية</a></li>
                             </ul>
                         </div>
                         <div class="col-md-4">
                             <h3 class="fs-5 fw-bold text-white mb-4">المساعدة والدعم</h3>
                             <hr class="d-none d-lg-block footer-divider">
                             <ul class="list-unstyled mb-0">
-                                <li><a href="#">اسم الصفحة</a></li>
-                                <li><a href="#">اسم الصفحة</a></li>
-                                <li><a href="#">اسم الصفحة</a></li>
-                                <li><a href="#">اسم الصفحة</a></li>
+                                <li><a href="#">تواصل معنا</a></li>
+                                <li><a href="#">الأسئلة الشائعة</a></li>
+                                <li><a href="#">محادثة فورية</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="accordion accordion-flush d-block d-lg-none ksa-footer-accordion" role="tablist" id="footerAccordion">
+                    <div class="accordion accordion-flush d-block d-lg-none ksa-footer-accordion" role="tablist" id="footerAccordion-1">
                         <div class="accordion-item">
-                            <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLinks" aria-expanded="false" aria-controls="footerAccordion .item-1"> روابط ذات صلة </button></h2>
-                            <div class="accordion-collapse collapse item-1" role="tabpanel" data-bs-parent="#footerAccordion" id="collapseLinks">
+                            <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLinks" aria-expanded="false" aria-controls="footerAccordion-1 .item-1"> روابط ذات صلة </button></h2>
+                            <div class="accordion-collapse collapse item-1" role="tabpanel" data-bs-parent="#footerAccordion-1" id="collapseLinks-1">
                                 <div class="accordion-body">
                                     <ul class="list-unstyled mb-0">
-                                        <li><a class="ksa-footer-link" href="#">اسم الصفحة</a></li>
-                                        <li><a class="ksa-footer-link" href="#">اسم الصفحة</a></li>
-                                        <li><a class="ksa-footer-link" href="#">اسم الصفحة</a></li>
+                                        <li><a href="https://www.makkah.gov.sa/">موقع إمارة منطقة مكة المكرمة</a></li>
+                                        <li><a href="https://ameen.makkah.gov.sa">نظام التعاملات الإلكترونية (أمين)</a></li>
+                                        <li><a href="https://shomool.makkah.gov.sa">بوابة خدمات الموظفين (شمول)</a></li>
+                                        <li><a href="http://nc-azure-devops.imarah.net/">أداة إدارة المشاريع التقنية</a></li>
+                                        <li><a href="https://makkah.spaces.deem.sa">نظام التواصل الداخلي</a></li>
+                                        <li><a href="https://makkah.drive.deem.sa">نظام مشاركة الملفات السحابي</a></li>
+                                        <li><a href="https://mail.deem.sa">الدخول إلى موقع البريد الإلكتروني</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item">
-                            <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSections" aria-expanded="false" aria-controls="footerAccordion .item-2"> أقسام مهمة </button></h2>
-                            <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#footerAccordion" id="collapseSections">
+                            <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSections" aria-expanded="false" aria-controls="footerAccordion-1 .item-2"> أقسام مهمة </button></h2>
+                            <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#footerAccordion-1" id="collapseSections-1">
                                 <div class="accordion-body">
                                     <ul class="list-unstyled mb-0">
-                                        <li><a class="ksa-footer-link" href="#">اسم الصفحة</a></li>
-                                        <li><a class="ksa-footer-link" href="#">اسم الصفحة</a></li>
-                                        <li><a class="ksa-footer-link" href="#">اسم الصفحة</a></li>
+                                        <li><a href="https://">سياسة ممارسات إدارة محفظة المشاريع التقنية</a></li>
+                                        <li><a href="#">الهيكل التنظيمي للمكتب</a></li>
+                                        <li><a href="#">منهجية إدارة المشاربع التقنية</a></li>
+                                        <li><a href="#">أداة إدارة المشاريع التقنية</a></li>
+                                        <li><a href="#">إجراءات إدارة المشاريع التقنية</a></li>
+                                        <li><a href="#">الأدلة الإسترشادية</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item">
-                            <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSupport" aria-expanded="false" aria-controls="footerAccordion .item-3"> المساعدة والدعم </button></h2>
-                            <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#footerAccordion" id="collapseSupport">
+                            <h2 class="accordion-header" role="tab"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSupport" aria-expanded="true" aria-controls="footerAccordion-1 .item-3"> المساعدة والدعم </button></h2>
+                            <div class="accordion-collapse collapse show item-3" role="tabpanel" data-bs-parent="#footerAccordion-1" id="collapseSupport-1">
                                 <div class="accordion-body">
                                     <ul class="list-unstyled mb-0">
-                                        <li><a class="ksa-footer-link" href="#">اسم الصفحة</a></li>
-                                        <li><a class="ksa-footer-link" href="#">اسم الصفحة</a></li>
-                                        <li><a class="ksa-footer-link" href="#">اسم الصفحة</a></li>
+                                        <li><a href="#">تواصل معنا</a></li>
+                                        <li><a href="#">الأسئلة الشائعة</a></li>
+                                        <li><a href="#">محادثة فورية</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -356,11 +389,15 @@
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="text-lg-start d-flex flex-column gap-4 align-items-lg-start mt-4 mt-lg-0">
+                    <div class="d-flex flex-column gap-4 align-items-lg-start mt-4 mt-lg-0">
                         <div>
                             <h3 class="fs-5 fw-bold text-white">تواصل معنا</h3>
                             <hr class="d-none d-lg-block footer-divider">
-                            <div class="d-flex gap-3 justify-content-lg-start"><a class="d-inline-flex justify-content-center align-items-center p-3 footer-icon-btn" href="#"><i class="fab fa-x-twitter"></i></a><a class="d-inline-flex justify-content-center align-items-center p-3 footer-icon-btn" href="#"><i class="fab fa-linkedin-in"></i></a><a class="d-inline-flex justify-content-center align-items-center p-3 footer-icon-btn" href="#"><i class="fab fa-instagram"></i></a><a class="d-inline-flex justify-content-center align-items-center p-3 footer-icon-btn" href="#"><i class="fab fa-facebook-f"></i></a></div>
+                            <div class="d-flex gap-3 justify-content-lg-start"><a class="d-inline-flex justify-content-center align-items-center footer-icon-btn" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. -->
+                                        <path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"></path>
+                                    </svg></a><a class="d-inline-flex justify-content-center align-items-center footer-icon-btn" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. -->
+                                        <path d="M256 80C149.9 80 62.4 159.4 49.6 262c9.4-3.8 19.6-6 30.4-6c26.5 0 48 21.5 48 48l0 128c0 26.5-21.5 48-48 48c-44.2 0-80-35.8-80-80l0-16 0-48 0-48C0 146.6 114.6 32 256 32s256 114.6 256 256l0 48 0 48 0 16c0 44.2-35.8 80-80 80c-26.5 0-48-21.5-48-48l0-128c0-26.5 21.5-48 48-48c10.8 0 21 2.1 30.4 6C449.6 159.4 362.1 80 256 80z"></path>
+                                    </svg></a><a class="d-inline-flex justify-content-center align-items-center footer-icon-btn" href="#"><i class="fas fa-phone-alt"></i></a></div>
                         </div>
                         <div>
                             <h3 class="fs-5 fw-bold text-white">أدوات الإتاحة وامكانية الوصول</h3>
@@ -371,9 +408,9 @@
                 </div>
             </div>
             <div class="row gy-4 flex-column-reverse align-items-center flex-lg-row mt-4">
-                <div class="col-lg-8 text-center text-lg-start">
+                <div class="col-lg-8">
                     <p class="fs-6 mb-2">جميع الحقوق محفوظة لإمارة منطقة مكة المكرمة 2026 ©</p>
-                    <div class="d-flex justify-content-center flex-wrap gap-3 justify-content-lg-start bottom-links"><a href="#">الشروط والأحكام</a><a href="#">سياسة الخصوصية</a><a href="#">خريطة الموقع</a></div>
+                    <div class="d-flex justify-content-start flex-wrap gap-3 justify-content-lg-start bottom-links"><a href="#">الشروط والأحكام</a><a href="#">سياسة الخصوصية</a><a href="#">خريطة الموقع</a></div>
                 </div>
                 <div class="col-lg-4 d-flex justify-content-center align-items-center gap-4 justify-content-lg-start">
                     <div class="text-white d-flex align-items-center gap-2"><img class="w-100 h-100" src="https://my.gov.sa/_next/static/media/logo_daga_sa.796abc16.svg"></div>
@@ -384,6 +421,7 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/related-section.js?h=775b0e93d68bbfd3ba4d7484d6869c8a"></script>
+    <script src="assets/js/Date-Picker.js?h=a376004e0d344ef2633c10a707230eab"></script>
     <script src="assets/js/Dropdown.js?h=d12d1018b8288ba3b6a5b503973d7db2"></script>
 </body>
 

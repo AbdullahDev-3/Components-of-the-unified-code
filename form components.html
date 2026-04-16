@@ -7,7 +7,7 @@
     <title>form components</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
-    <link rel="stylesheet" href="assets/css/Custom-Header&amp;TopBar.css?h=d1486cd50cb01925ed7325d8b8382dfc">
+    <link rel="stylesheet" href="assets/css/Custom-Header&amp;TopBar.css?h=25dd380429c2ff302461fff245030f55">
     <link rel="stylesheet" href="assets/css/button.css?h=654cc1ec11acfccb3132abdf2b15ce15">
     <link rel="stylesheet" href="assets/css/footer.css?h=89957461521d32c960971f4033ec5336">
     <link rel="stylesheet" href="assets/css/hero.css?h=07662a6a079df66aeed546327f22359b">
@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="assets/css/tag.css?h=63ffea169efa1f0f3b1acb63c804e010">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="assets/css/Checkboxes.css?h=a74ac7eeefeec1e2b6daeb7fddeeeea1">
+    <link rel="stylesheet" href="assets/css/Date-Picker.css?h=a31759faa6b42db72b4e799e687bee74">
     <link rel="stylesheet" href="assets/css/drop-zone.css?h=846df66dcad36e9d9396c57361e06fb3">
     <link rel="stylesheet" href="assets/css/Dropdown.css?h=470d46eb6fd5cc73554aa91b83b1e884">
     <link rel="stylesheet" href="assets/css/File-Status.css?h=d25593e103db23432f9021cc9f2aaaf8">
@@ -141,10 +142,49 @@
                     <div class="d-flex align-items-center" style="color:var(--ksa-error-600);"><span class="fw-bold" style="font-size:0.95rem;">رسالة خطأ أو تحذير</span></div>
                 </div>
             </section>
+            <section class="mt-5 pt-4 border-top">
+                <h5 class="fs-5 fw-bold text-dark mb-4">منتقي التاريخ المفرد (Date Picker)</h5>
+                <div class="position-relative" style="max-width:320px;"><label class="form-label">تاريخ الموعد</label>
+                    <div class="position-relative"><input type="text" class="form-control" id="ksa-datepicker-input" placeholder="يوم/شهر/سنة" readonly="" style="cursor:pointer;padding-left:40px;"><i class="fas fa-calendar-alt datepicker-icon"></i></div>
+                    <div id="ksa-datepicker-popup" class="ksa-datepicker-popup">
+                        <div class="dp-header">
+                            <div class="d-flex align-items-center gap-1 dp-month-year"><span id="dp-month-name">ديسمبر</span>
+                                <div class="position-relative ms-1">
+                                    <div class="d-flex align-items-center gap-1" id="dp-year-btn" style="cursor:pointer;"><span id="dp-year">2023</span><i class="fas fa-chevron-down text-muted" style="font-size:0.8rem;"></i></div>
+                                    <div id="dp-year-menu" class="year-dropdown-menu" dir="rtl"></div>
+                                </div>
+                            </div>
+                            <div class="dp-arrows"><button type="button" id="dp-prev" title="الشهر السابق"><i class="fas fa-arrow-right"></i></button><button type="button" id="dp-next" title="الشهر التالي"><i class="fas fa-arrow-left"></i></button></div>
+                        </div>
+                        <div class="dp-weekdays"><span>أحد</span><span>إثنين</span><span>ثلاثاء</span><span>أربعاء</span><span>خميس</span><span>جمعة</span><span>سبت</span></div>
+                        <div id="dp-days-grid" class="dp-days"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="mt-5 pt-4 border-top">
+                <h5 class="fs-5 fw-bold text-dark mb-4">منتقي نطاق التاريخ (Date Range Picker)</h5>
+                <div class="position-relative" style="max-width:320px;"><label class="form-label">فترة الموعد</label>
+                    <div class="position-relative"><input type="text" class="form-control" id="ksa-range-picker-input" placeholder="يوم/شهر/سنة" readonly="" style="cursor:pointer;padding-left:40px;"><i class="fas fa-calendar-alt datepicker-icon"></i></div>
+                    <div id="ksa-range-picker-popup" class="ksa-datepicker-popup" dir="rtl">
+                        <div class="dp-header-rtl">
+                            <div class="d-flex align-items-center gap-1 dp-month-year-rtl"><span id="rp-month-name">ديسمبر</span>
+                                <div class="position-relative ms-1">
+                                    <div class="d-flex align-items-center gap-1" id="rp-year-btn" style="cursor:pointer;"><span id="rp-year">2023</span><i class="fas fa-chevron-down text-muted" style="font-size:0.8rem;"></i></div>
+                                    <div id="rp-year-menu" class="year-dropdown-menu" dir="rtl"></div>
+                                </div>
+                            </div>
+                            <div class="dp-arrows-rtl"><button type="button" id="rp-prev" title="الشهر السابق"><i class="fas fa-arrow-right"></i></button><button type="button" id="rp-next" title="الشهر التالي"><i class="fas fa-arrow-left"></i></button></div>
+                        </div>
+                        <div class="dp-weekdays-rtl"><span>أحد</span><span>إثنين</span><span>ثلاثاء</span><span>أربعاء</span><span>خميس</span><span>جمعة</span><span>سبت</span></div>
+                        <div id="rp-days-grid" class="dp-days-rtl"></div>
+                    </div>
+                </div>
+            </section>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/related-section.js?h=775b0e93d68bbfd3ba4d7484d6869c8a"></script>
+    <script src="assets/js/Date-Picker.js?h=a376004e0d344ef2633c10a707230eab"></script>
     <script src="assets/js/Dropdown.js?h=d12d1018b8288ba3b6a5b503973d7db2"></script>
 </body>
 
