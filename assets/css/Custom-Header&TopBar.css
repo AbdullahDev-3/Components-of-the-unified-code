@@ -345,15 +345,22 @@
 
 @media (max-width: 1399px) {
   .mega-menu-list {
-    padding: 1.5rem;
+    padding: 5px 1.5rem;
     background-color: var(--ksa-white);
-    border-bottom: 1px solid var(--ksa-gray-200);
+    /*border-bottom: 1px solid var(--ksa-gray-200);*/
   }
 }
 
 @media (max-width: 1399px) {
   .mega-menu-list li:last-child {
     margin-bottom: 0;
+  }
+}
+
+@media (max-width: 1399px) {
+  .mega-menu .row:last-child {
+    margin-bottom: 0;
+    border-bottom: 1px solid var(--ksa-gray-200);
   }
 }
 
