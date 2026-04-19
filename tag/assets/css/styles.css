@@ -1,0 +1,9 @@
+.tag-loop {
+  border: 2px solid #006b44 !important;
+  color: #006b44 !important;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
