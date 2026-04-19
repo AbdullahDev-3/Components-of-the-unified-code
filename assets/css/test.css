@@ -1,0 +1,201 @@
+:root {
+  --ksa-primary: #1b8354;
+  --ksa-font: 'IBM Plex Sans Arabic', sans-serif;
+  --ksa-gray-50: #F9FAFB;
+  --ksa-gray-200: #EAECF0;
+  --ksa-gray-600: #475467;
+  --ksa-gray-900: #1F2A37;
+  --ksa-gold: #d4af37;
+}
+
+body {
+  font-family: var(--ksa-font);
+  background-color: #ffffff;
+  color: var(--ksa-gray-900);
+  position: relative;
+}
+
+/* Hero Section */
+
+.hero-section {
+  padding: 4rem 0 6rem 0;
+  background-color: #f8f9fa;
+}
+
+.share-box {
+  background-color: #f0fff9;
+  border: 1px solid #e0f2f1;
+  border-radius: 1rem;
+  padding: 1.25rem;
+  width: 100%;
+  max-width: 250px;
+}
+
+.share-title {
+  color: var(--ksa-primary);
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+  text-align: center;
+}
+
+.share-btn {
+  width: 35px;
+  height: 35px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  color: white !important;
+  text-decoration: none;
+  margin: 0 2px;
+}
+
+.dga-h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.btn-download-dga {
+  background-color: var(--ksa-primary);
+  color: white;
+  padding: 0.7rem 1.8rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Sadu Pattern */
+
+.sadu-divider {
+  width: 100%;
+  height: 70px;
+  background-image: url('https://dga.gov.sa/themes/custom/dga/Images/NDS/sadu.svg');
+  background-repeat: repeat-x;
+  background-position: center;
+  background-size: contain;
+  background-color: #f8f9fa;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+/* Metadata Card */
+
+.meta-card-wrapper {
+  margin-top: -35px;
+  position: relative;
+  z-index: 50;
+}
+
+.meta-card {
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 1.5rem;
+  padding: 1.8rem 0;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.meta-icon {
+  width: 50px;
+  height: 50px;
+  background-color: var(--ksa-primary);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 12px auto;
+  font-size: 1.2rem;
+}
+
+.meta-label {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+/* --- Sidebar & ScrollSpy (The Fix) --- */
+
+.sidebar-column {
+  position: sticky;
+  top: 2rem;
+  height: fit-content;
+}
+
+.sidebar-label {
+  font-size: 0.8rem;
+  color: #9ca3af;
+  border-right: 4px solid var(--ksa-primary);
+  padding-right: 12px;
+  margin-bottom: 15px;
+}
+
+#sidebar-nav .nav-link {
+  color: #667085;
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 0.7rem 1.25rem;
+  border-right: 4px solid transparent;
+  transition: all 0.2s;
+  text-align: right;
+}
+
+/* الكلاس المسؤول عن الخط الأخضر عند تفعيل النقطة */
+
+#sidebar-nav .nav-link.active {
+  color: #000 !important;
+  font-weight: 700;
+  border-right-color: var(--ksa-primary) !important;
+  background: transparent;
+}
+
+#sidebar-nav .nav-link:hover {
+  color: var(--ksa-primary);
+}
+
+/* Content Styling */
+
+section[id^="section-"] {
+  scroll-margin-top: 100px;
+  padding-bottom: 4rem;
+}
+
+.section-title {
+  color: var(--ksa-primary);
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.gold-subtitle {
+  color: var(--ksa-gold);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.content-p {
+  line-height: 2;
+  color: #4a5568;
+  text-align: justify;
+  font-size: 1.1rem;
+}
+
+/* Feedback Section */
+
+.feedback-box {
+  border: 1px solid #f0f0f0;
+  border-radius: 1rem;
+  background: white;
+  margin-top: 3rem;
+  overflow: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+

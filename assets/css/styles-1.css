@@ -1,0 +1,56 @@
+:root {
+  --ksa-primary: #067647;
+  --ksa-secondary: #333333;
+  --ksa-font: .ibm-plex-sans-arabic-regular;
+  --ksa-white: #FFFFFF;
+  --ksa-gray-30: #fafafa;
+  --ksa-gray-40: #f3f4f6;
+  --ksa-gray-50: #F9FAFB;
+  --ksa-gray-100: #F2F4F7;
+  --ksa-gray-200: #EAECF0;
+  --ksa-gray-300: #D0D5DD;
+  --ksa-gray-400: #98A2B3;
+  --ksa-gray-500: #667085;
+  --ksa-gray-600: #475467;
+  --ksa-gray-700: #344054;
+  --ksa-gray-800: #454545;
+  --ksa-gray-900: #101828;
+  --ksa-gray-hover: #F3F4F6;
+  --ksa-error-50: #FEF3F2;
+  --ksa-error-100: #FEE4E2;
+  --ksa-error-300: #FECDCA;
+  --ksa-error-500: #F04438;
+  --ksa-error-600: #D92D20;
+  --ksa-error-700: #B42318;
+  --ksa-success-40: #f3fcf6;
+  --ksa-success-50: #ECFDF3;
+  --ksa-success-100: #d1ffe4;
+  --ksa-success-200: #94f2ba;
+  --ksa-success-500: #12B76A;
+  --ksa-success-600: #54c08a;
+  --ksa-success-700: #05603A;
+  --ksa-success-bg: #F0FDF4;
+  --ksa-success-light: #F9FDFB;
+  --ksa-success-dark: #027A48;
+  --ksa-success-hover: #05603A;
+  --ksa-warning-50: #FFFAEB;
+  --ksa-warning-300: #FEDF89;
+  --ksa-warning-500: #F79009;
+  --ksa-warning-700: #B54708;
+  --ksa-blue-40: #EFF8FF;
+  --ksa-blue-50: #F0F9FF;
+  --ksa-blue-100: #B9E6FE;
+  --ksa-blue-700: #026AA2;
+  --ksa-dark-red: #7A271A;
+  --ksa-dark-hover: #262f40;
+  --ksa-light-hover: #E5E7EB;
+  --ksa-black: #161616;
+  --ksa-footer-bg: #024d36;
+  --ksa-footer-text: #ffffff;
+  --ksa-footer-border: rgba(255, 255, 255, 0.1);
+}
+
+a {
+  text-decoration: none !important;
+}
+
